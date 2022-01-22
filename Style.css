@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    float: right;
+    padding-top: 5%;
+}
+nav a{
+    color: #239267;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+}
+
+.img{
+    float: left;
+    width: 22.33%;
+  padding: 15px;
+padding-top: 25%;
+}
+.img123::after{
+     content: "";
+     clear: both;
+     display: table;   
+    
+    }
+
+    @media screen and (max-width: 800px) {
+  .img {
+    width: 100%;
+  }
+}
