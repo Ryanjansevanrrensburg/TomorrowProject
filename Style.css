@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    float: right;
+    padding-top: 5%;
+}
+nav a{
+    color: #239267;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+}
+
+.img{
+    float: left;
+    width: 22.33%;
+  padding: 15px;
+padding-top: 25%;
+}
+.img123::after{
+     content: "";
+     clear: both;
+     display: table;   
+    
+    }
+    .p{
+      float: left;
+      padding-top: 10%;
+       
+    }    
+  .form{
+    
+    padding-top: 10%;
+    padding-right: 55%;
+  }
+
+  
+    @media screen and (max-width: 800px) {
+  .img {
+    width: 100%;
+  }
+  .p{
+      width: 100%;
+      
+  }
+}
+h3{
+  padding-top: 10%;
+  text-size-adjust: 30pt;
+}
+.sm{
+  width: 200px;
+  height: 250px;
+}
